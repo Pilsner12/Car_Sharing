@@ -31,37 +31,7 @@ h6 {
     /* nebo lze margin-inline = vlevo + vpravo */
 }
 
-
-.button {
-    display: inline-block;
-    padding: 11px 29px;
-    background: #ff0000;
-    border: #ff0000 1px solid;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "nunito sans", sans-serif;
-    font: optional-sizing: auto;
-    font-weight: 700;
-    border-radius: 500px;
-    /*nastavi radius na maximalni velikost*/
-    font-size: 14px;
-    box-shadow: 0 3px 6px black;
-}
-
-.button--big {
-    /* modifikatory piseme vzdy za block/rodic */
-    font-size: 16px;
-    padding: 22px 55px;
-}
-
-.button--outline {
-    background: white;
-    color: red;
-
-}
-
-
+/* Hero */
 .hero {
     height: 100vh;
     display: flex;

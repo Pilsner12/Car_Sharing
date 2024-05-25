@@ -1,4 +1,156 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "open sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "nunito sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.container {
+    text-align: center;
+    max-width: 1088px;
+    margin-left: auto;
+    margin-right: auto;
+    /* nebo lze margin-inline = vlevo + vpravo */
+}
+
+
+.button {
+    display: inline-block;
+    padding: 11px 29px;
+    background: #ff0000;
+    border: #ff0000 1px solid;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "nunito sans", sans-serif;
+    font: optional-sizing: auto;
+    font-weight: 700;
+    border-radius: 500px;
+    /*nastavi radius na maximalni velikost*/
+    font-size: 14px;
+    box-shadow: 0 3px 6px black;
+}
+
+.button--big {
+    /* modifikatory piseme vzdy za block/rodic */
+    font-size: 16px;
+    padding: 22px 55px;
+}
+
+.button--outline {
+    background: white;
+    color: red;
+
+}
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../images/hero-bg.png) center/cover;
+}
+
+.hero__content {
+    /* background-color: pink; */
+    flex-grow: 1;
+    color: white;
+    font-family: nunito sans, sans-serif;
+    font-optical-sizing: auto;
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.hero__desription {
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero__button {
+    margin-top: 50px;
+}
+
+
+
+.header {
+    height: 90px;
+    background-color: #00000066;
+}
+
+.header .container {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo__text span {
+    color: red;
+}
+
+.logo__text {
+    font-family: "nunito sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1;
+}
+
+.logo__icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+
+.menu__link {
+    display: inline-block;
+
+    padding: 37px 40px;
+    font-family: "nunito sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.menu__link:hover {
+    background-color: #ffffff33;
+}

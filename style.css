@@ -23,13 +23,24 @@ h6 {
     font-weight: 700;
 }
 
+h1 {
+    margin-bottom: 30px;    
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+/* Container */
 .container {
     text-align: center;
     max-width: 1088px;
     margin-left: auto;
     margin-right: auto;
-    /* nebo lze margin-inline = vlevo + vpravo */
 }
+
 
 /* Hero */
 .hero {
@@ -37,7 +48,7 @@ h6 {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url(../images/hero-bg.png) center/cover;
+        url(../images/hero-bg.png) center/cover no-repeat;
 }
 
 .hero__content {
@@ -61,13 +72,23 @@ h6 {
 .hero__desription {
     font-size: 16px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .hero__button {
     margin-top: 50px;
 }
 
-
+.hero__blog {
+    height: 707px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+ 
+   
+}
 
 .header {
     height: 90px;
